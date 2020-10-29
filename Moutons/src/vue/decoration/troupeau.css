@@ -1,0 +1,143 @@
+/*
+ *
+https://www.flaticon.com/free-icon/eraser_847452 - Kiranshastry Lineal - https://www.flaticon.com/authors/kiranshastry/lineal
+https://www.flaticon.com/free-icon/paintbrush_129817 - Freepik
+
+https://icon-icons.com/fr/icone/moutons-animal/3877
+https://icon-icons.com/fr/icone/animal-avatar-mouton-moutons/113242
+https://icon-icons.com/fr/icone/mouton/12727
+https://www.pngkey.com/detail/u2w7r5u2r5y3y3t4_lamb-filled-icon-mouton-icon-png/
+flaticon.com/free-icon/sheep_66458
+
+*/
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('textes/DancingScript-Regular.ttf');
+    // https://fonts.google.com/specimen/Dancing+Script?category=Handwriting
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('textes/Pacifico-Regular.ttf');
+    // https://fonts.google.com/specimen/Pacifico?category=Handwriting
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url('textes/Satisfy-Regular.ttf');
+    // https://fonts.google.com/specimen/Satisfy?category=Handwriting
+}
+@font-face {
+    font-family: 'Vibur';
+    src: url('textes/Vibur-Regular.ttf');
+    // https://fonts.google.com/specimen/Vibur?category=Handwriting
+}
+#entete #titre
+{
+    -fx-font-size:40;
+    //-fx-font-weight:bold;
+    -fx-font-family: 'Pacifico';
+    -fx-text-fill:white;
+}
+#entete #sous-titre Label
+{
+    -fx-font-size:70;
+    -fx-font-weight:bold;
+    -fx-font-family: 'Vibur';
+    -fx-text-fill:black;
+}
+
+#fenetre
+{
+    -fx-background-color:#fff;
+}
+#espace-travail
+{
+    -fx-background-color: #dddddd;//#FBFCFC;
+    -fx-background-radius:2em 2em 2em 2em;
+    -fx-padding:2em;
+}
+#entete
+{
+    //-fx-background-color: white;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, orange, yellow);
+
+}
+#entete Label
+{
+    -fx-text-fill : #333333;    
+}
+#entete #sous-titre
+{
+    -fx-border-color:black;
+    -fx-border-radius:40;
+    -fx-background-color:#c9f3fc;//61b5c6;
+    -fx-background-radius:40;
+}
+
+#menu,
+#menu Button
+{
+    -fx-background-color: #6e6e6e;
+}
+
+#menu Button
+{
+    -fx-border-radius: 0px;
+    -fx-border-insets: 0px 0px 0px 0px;
+    -fx-cursor:hand;
+    
+}
+
+#menu Button:hover{
+    -fx-background-color: #333333;
+    //-fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: white;
+    -fx-border-style: solid;
+}
+#menu Button:pressed
+{
+    -fx-background-color: #cccccc;   
+}
+
+#espace
+{
+    -fx-background-color:  black;
+}
+#troupeau-detail
+{
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-insets: -5px;
+    -fx-border-width: 3px;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #f6f797, white);
+    -fx-border-color:#f6f797;    
+}
+
+Pane.mouton
+{
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-insets: -5px;
+    -fx-border-color: orange;
+    -fx-border-width: 3px;
+    -fx-background-color:#79e2f7;
+    -fx-border-color:#79e2f7;
+    -fx-margin: 15px;
+    -fx-min-width:200;
+    -fx-background-image : url("moutons/mouton-profil-transparente.png");
+    -fx-background-repeat: no-repeat stretch;   
+    -fx-background-size: auto 100%;
+    -fx-background-position: center center;
+}
+
+ScrollPane,
+ScrollPane > .viewport
+{
+    -fx-background-color:transparent;
+}
+
+ScrollPane > .viewport
+{
+    -fx-padding: 5 5 5 5;
+}
+
